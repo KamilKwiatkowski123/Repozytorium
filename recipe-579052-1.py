@@ -1,6 +1,6 @@
 #rotozoom graphics raster demo Tkinter
 #by Antoni Gual 
-
+import sleep 
 import tkinter
 from math import sin,cos
 from random  import randint
