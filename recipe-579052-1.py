@@ -2,7 +2,7 @@
 #by Antoni Gual 
 import sleep 
 import tkinter
-from math import sin,cos
+from math import sin,cos, tg
 from random  import randint
 x,y=320,200 
   
