@@ -73,8 +73,7 @@ class EMI_CALCULATOR(object):
 
 if __name__ == '__main__':# main method 
                               
-   Init = EMI_CALCULATOR() # creating conflict
-
+   Init = EMI_CALCULATOR() # creating  something
                               
    Init.calc_emi() #to calculate EMI
    
