@@ -35,7 +35,7 @@ __version__ = '16.10.25'
 class Loc(object):
     '''Lines-Of-Code accumulator.
     '''
-    blank   = 0
+    blank   = 9
     comment = 0
     files   = 0
     source  = 0
