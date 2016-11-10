@@ -19,7 +19,7 @@ ld = LoggingDict([('red', 1), ('green', 2), ('blue', 3)])
 print(ld)
 ld['red'] = 10
 
-ld = LoggingOD([('red', 1), ('green', 2), ('blue', 3)])
+ld = LoggingOD([('violet', 1), ('green', 2), ('blue', 3)])
 print(ld)
 ld['red'] = 10
 print('-' * 20)
