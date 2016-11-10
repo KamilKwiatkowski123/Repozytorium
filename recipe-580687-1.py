@@ -32,7 +32,7 @@ def crutemread(fn,verbose=False):
     doingObs = False # this changes to True when 'Obs.' is encountered in a line
     h['obs']={} # will have integer years as keys, to hold list of monthly temperatures
     for line in lines: 
-        if line[0:4]=='Obs:':
+        if line[0:5]=='Obs:':
             doingObs=True
             continue
         if not doingObs: # parameter values are put in dictionary
