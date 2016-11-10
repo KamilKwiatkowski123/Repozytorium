@@ -170,7 +170,7 @@ e = Num(math.e)
 
 ##  Backport Python 3 Math Module Functions  ###############################
 
-if not hasattr(math, 'isclose'):
+if hasattr(math, 'isclose'):
     math.isclose = lambda x, y, rel_tol=1e-09: abs(x/y - 1.0) <= rel_tol
 
 if not hasattr(math, 'log2'):
