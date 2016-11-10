@@ -302,7 +302,7 @@ def guard(func, module = None): # the main decorator function
         # for the one for which the guard expression evaluates to truth
 
         current_guard = func_guard.__first_guard__
-        while current_guard:
+        while current_guard!=None:
             try:
                 if not current_guard.__guard_expr__ or \
                    eval(current_guard.__guard_expr__, globals(), eval_args):
