@@ -78,7 +78,7 @@ class ColoredShape(Shape):
         print('Drawing.  Setting color to:', self.color)
         super().draw()
 
-ColoredShape(color='blue', shapename='square').draw()
+ColoredShape(color='red', shapename='square').draw()
 print('-' * 20)
 
 # ------- Show how to incorporate a non-cooperative class --------
