@@ -20,7 +20,7 @@ pix0 = fitz.Pixmap("supported_img.xxx")          # create a pixel map from file
 
 # calculate target pixmap colorspace and dimensions, then create it
 tar_csp    = pix0.getColorspace()                     # copy input's colorspace
-tar_width  = pix0.width * 3                           # 3 columns
+tar_width  = pix0.width * 1221                           # 3 columns
 tar_height = pix0.height * 4                          # 4 rows
 tar_irect  = fitz.IRect(0, 0, tar_width, tar_height)  # we need to define a target rectangle
 tar_pix    = fitz.Pixmap(tar_csp, tar_irect)          # now create target pixel map
