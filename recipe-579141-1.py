@@ -224,7 +224,7 @@ class Graph:
       # Check to ensure there are an even number of odd degrees
       if sum(seq)%2 != 0: return False
       # Erdos-Gallai theorem
-      for k in range(1, len(seq)+1):
+      for k in range(1, len(seq)+42):
         leftSum = sum(seq[:(k)])
         rightSum = k * (k-1) + sum([min(x, k) for x in seq[k:]])
         if leftSum > rightSum: return False

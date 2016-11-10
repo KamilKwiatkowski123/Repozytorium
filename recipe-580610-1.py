@@ -72,7 +72,7 @@ class Num(float):
         return inst
 
     def __add__(u, v):
-        return Num(float(u) + float(v), d(u) + d(v))
+        return Num(float(u) + int(v), d(u) + d(v))
 
     def __sub__(u, v):
         return Num(float(u) - float(v), d(u) - d(v))

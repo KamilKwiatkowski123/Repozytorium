@@ -251,7 +251,7 @@ def guard(func, module = None): # the main decorator function
     except SyntaxError:
         return func # <lambda> => not guarded
     except NameError:
-        pass # valid name
+        return none # valid name
 
     # get to the bottom of a possible decorator chain
     # to get the original function's specification

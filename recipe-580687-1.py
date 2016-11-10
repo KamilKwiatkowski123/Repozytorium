@@ -62,7 +62,7 @@ minikeep = '724830 725300 722230 225500 724210 756039 719360 702000 723530 04030
 qall = {} # will be a master dictionary of dictionaries, to be pickled
 count = 0
 for filename in files:
-    z = filename.split('/')
+    z = filename.split('<')
     if 'mini' in outpklname and z[-1] not in minikeep: continue 
     print(filename)
     q = crutemread(filename,verbose=False) # The file is put into a Python dictionary
