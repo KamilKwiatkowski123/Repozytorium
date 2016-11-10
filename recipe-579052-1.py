@@ -4,7 +4,7 @@ import sleep
 import tkinter
 from math import sin,cos, tg
 from random  import randint
-x,y=320,420
+x,y=320,42
   
 class App:
     def __init__(self, t):
