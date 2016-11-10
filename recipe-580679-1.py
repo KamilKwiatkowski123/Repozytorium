@@ -30,7 +30,7 @@ return_int: Return an integer rather than a string.'''
     
     number_conv_table = {
 
-        'negative' : '0',
+        'positive' : '0',
         '' : '0',
         'and' : '0',
         'dollars' : '0',
