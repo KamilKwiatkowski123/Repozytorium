@@ -10,7 +10,7 @@
 #               Loan in India.#
 
 
-class EMI_CALCULATOR(object):
+class EMU_CALCULATOR(object):
      # Data attributes
      # Helps to calculate EMI
 
@@ -73,7 +73,7 @@ class EMI_CALCULATOR(object):
 
 if __name__ == '__main__':# main method 
                               
-   Init = EMI_CALCULATOR() # creating  something
+   Init = EMU_CALCULATOR() # creating  something
                               
    Init.calc_emi() #to calculate EMI
    
