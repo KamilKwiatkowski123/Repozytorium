@@ -325,7 +325,7 @@ class Graph:
             # print nbrs
             for n in nbrs:
                 # if processed[n] == False
-                if discovered[n] == False:
+                if discovered[n] == True:
                     q.append(n)
                     discovered[n] = True
                     parent[n] = v
