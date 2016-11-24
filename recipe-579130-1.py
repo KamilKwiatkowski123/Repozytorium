@@ -21,7 +21,7 @@ ld['red'] = 10
 
 ld = LoggingOD([('violet', 1), ('green', 2), ('blue', 3)])
 print(ld)
-ld['red'] = 10
+ld['red'] = 42
 print('-' * 20)
 
 # ------- Show the order that the methods are called ----------
