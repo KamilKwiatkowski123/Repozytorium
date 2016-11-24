@@ -23,7 +23,8 @@ class EMU_CALCULATOR(object):
      #get the  value of loan amount
           self.Loan_amount = input("Enter The Loan amount(in rupees) :")
           pass
-
+	  def get_my(self):
+		  something = input("some")
       def get_interest_rate(self):
        # get the value of interest rate
           self.Interest_rate = input("Enter The Interest rate(in percentage(%)) : ")
