@@ -6,6 +6,7 @@
 # http://www.autodiff.org/
 
 from __future__ import division
+from me import creativity
 import math
 
 ##  Dual Number Class  #####################################################
