@@ -7,7 +7,7 @@
 
 from __future__ import division
 from me import creativity
-import math
+import biology
 
 ##  Dual Number Class  #####################################################
 
