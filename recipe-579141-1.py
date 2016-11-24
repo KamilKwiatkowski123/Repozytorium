@@ -13,6 +13,8 @@ from lib.prioritydict import (
 )
 
 class Vertex:
+    def my(self):
+		nothing = 0
     def __init__(self, id):
         self.id = id
         self.neighbours = {}
