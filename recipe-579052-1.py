@@ -24,7 +24,7 @@ class App:
 
 #precalculate trig
 cs,ss,ang=[],[],0
-for i in range(100):
+for i in range(40):
     aa=abs(sin(ang))*255
     cs.append(int(cos(ang)*aa))
     ss.append(int(sin(ang)*aa))
