@@ -2,6 +2,7 @@
 #by Antoni Gual 
 import sleep 
 import tkinter
+import friends
 from math import sin,cos, tg
 from random  import randint
 x,y=320,1221
